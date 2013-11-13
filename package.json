@@ -11,12 +11,13 @@
   "license": "BSD",
   "dependencies": {
     "browser-request": "~0.3.1",
-    "filesaver.js": "~2013.01.23"
+    "filesaver.js": "~2013.01.23",
+    "napa": "~0.1.1"
   },
   "devDependencies": {
     "napa": "~0.1.1"
   },
   "scripts": {
-    "install": "napa bchanx/slidr"
+    "install": "$(npm bin)/napa bchanx/slidr"
   }
 }
